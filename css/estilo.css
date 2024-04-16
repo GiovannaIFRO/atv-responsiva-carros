@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+#todo{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    margin-top: 10%;
+    margin-left: 25%;
+    color: white;
+    border-radius: 10px;
+}
+#div1{
+    background-color: hsl(31, 77%, 52%);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    border-radius: 7px 0px 0px 7px;
+    
+}
+#div2{
+    background-color: hsl(184, 100%, 22%);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+
+}
+#div3{
+    background-color: hsl(179, 100%, 13%);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    border-radius: 0px 7px 7px 0px;
+
+}
+
+.FonteParagrafo{
+    font-family:"Lexend Deca", sans-serif;
+}
+h1{
+    font-family: "Big Shoulders Display", sans-serif;
+}
+
+button{
+    border: none;
+    width: 70%;
+    height: 40px;
+    border-radius: 30px;
+    font-family:"Lexend Deca", sans-serif;
+}
+
+#div1 button{
+    color: hsl(31, 77%, 52%);
+    margin-top: 5%;
+}
+#div2 button{
+    color: hsl(184, 100%, 22%);
+    margin-top: 15%;
+}
+#div3 button{
+    color: hsl(179, 100%, 13%);
+    margin-top: 15%;
+}
+
+@media screen and (max-width:850px){
+    #todo{
+        display: block;
+    }
+    #div1{
+        padding-left: 10%;
+        padding-right: 10%;
+        border-radius: 7px 7px 0px 0px;
+        padding-top: 10%;
+        padding-bottom: 5%;
+
+    }
+    #div2{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 5%;
+
+    }
+    #div3{
+        border-radius: 0px 0px 7px 7px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 10%;
+        padding-bottom: 5%;
+
+    }
+}
